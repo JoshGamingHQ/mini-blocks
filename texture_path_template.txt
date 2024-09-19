@@ -1,0 +1,16 @@
+{"textures":{"SKIN":{"url":"image file link goes here"}}}
+
+Place the link to the image file in the url space.
+
+Then encode the entire line in base64.
+
+Below is the component you need to edit:
+
+      "minecraft:profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "Base64 Encoded Link goes here"
+          }
+        ]
+      }
